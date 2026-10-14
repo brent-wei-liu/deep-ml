@@ -12,4 +12,4 @@ def transpose_matrix(a) -> torch.Tensor:
     """
     a_t = torch.as_tensor(a)
     # Your code here
-    return a_t.T
+    return a_t.transpose(-2, -1)
