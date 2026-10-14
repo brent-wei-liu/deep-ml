@@ -13,4 +13,4 @@ def matrix_dot_vector(a, b) -> torch.Tensor:
         return torch.tensor(-1)
     # Your implementation here
     print(a_t.shape, b_t.shape)
-    return a_t@b_t.T
+    return a_t@b_t
